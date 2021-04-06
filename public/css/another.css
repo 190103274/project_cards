@@ -1,0 +1,141 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: flex-end;
+}
+
+.add-form__input{
+    margin-top: 30px;
+    width: 192px;
+    height: 23px;
+    
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+.add-form__title{
+    margin: 0;
+    margin-top: 20px;
+    color: rgb(83, 83, 83);
+}
+
+.add-form__file-input{
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    border: white; 
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.add-form__file-input:hover{
+    background-color: rgb(255, 255, 255, 0.7);
+    color: black;
+}
+
+.add-form__submit{
+    margin-top: 30px;
+    width: 204px;
+    height: 25px;
+    background-color: transparent;
+    color: white;
+    border: white; 
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.add-form__submit:hover{
+    background-color: rgb(255, 255, 255, 0.7);
+    color: black;
+}
+
+.cards{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.card__image{
+    height: 300px;
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card__title{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+
+.card__body{
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.card__button-delete{
+    
+    width: 70px;
+    height: 25px;
+    margin-left: 10px;
+
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    border: rgb(0, 0, 0); 
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.card__button-delete:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: red
+}
+
+.card__button-change{
+    
+    width: 70px;
+    height: 25px;
+    margin-left: 10px;
+
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    border: rgb(0, 0, 0); 
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.card__button-change:hover{
+    background-color: rgb(255, 255, 255, 0.7);
+    color: black
+}
+
+.footer{
+    height: 40px;
+}
