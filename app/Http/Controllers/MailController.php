@@ -12,9 +12,11 @@ class MailController extends Controller
         $objDemo = new \stdClass();
         $objDemo->demo_one = 'Demo One Value';
         $objDemo->demo_two = 'Demo Two Value';
-        $objDemo->sender = 'Ilshat.Osmanov';
+        $objDemo->sender = 'Cards project';
         $objDemo->receiver = 'Ilshat.Osmanov';
 
         Mail::to("28092001i@gmail.com")->send(new DemoEmail($objDemo));
+
+        return redirect()->route('page');
     }
 }

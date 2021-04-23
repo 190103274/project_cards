@@ -50,7 +50,7 @@
         var second__chart = new Chart(ctx2, {
             type: 'pie',
             data: {
-                labels: ["Rahat", "Ilshat", "Almaz", "Tamer"],
+                labels: ["Rahat", "Ilshat", "Marat", "Tamer"],
                 datasets: [
                     {
                         label: 'How we eat pizza...',

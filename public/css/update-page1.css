@@ -69,3 +69,19 @@ html, body{
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
 }
+
+.add-form__file-input {
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.add-form__file-input:hover {
+    background-color: rgba(32, 32, 32, 0.7);
+    color: white;
+}
